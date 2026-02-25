@@ -4,7 +4,7 @@ Use this file for common decisions while fixing violations.
 
 ## Default posture
 
-- Prefer fix-first runs: `scripts/run_markdownlint.sh <paths>`
+- Prefer fix-first runs via `"$SKILL_DIR/scripts/run_markdownlint.sh" <paths>`, where `SKILL_DIR="${CODEX_HOME:-$HOME/.codex}/skills/markdown-linter"`.
 - Review changed lines and keep semantic meaning intact.
 - Avoid style-only churn outside the requested files.
 
