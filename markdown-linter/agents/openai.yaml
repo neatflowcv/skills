@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Linter"
+  short_description: "Lint and fix Markdown files with markdownlint"
+  default_prompt: "Lint Markdown files, report violations, and apply safe automatic fixes when possible."
