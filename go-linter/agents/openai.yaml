@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Linter"
+  short_description: "Run golangci-lint with fix for changed Go files"
+  default_prompt: "Detect changed Go files, ensure golangci-lint is installed and configured, then run golangci-lint run --fix on the project."
